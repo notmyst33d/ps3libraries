@@ -2,7 +2,7 @@
 # libzip-0.9.3.sh by Naomi Peori (naomi@peori.ca)
 
 ## Download the source code.
-wget --continue http://www.nih.at/libzip/libzip-0.9.3.tar.bz2
+wget --continue https://libzip.org/download/libzip-0.9.3.tar.bz2
 
 ## Download an up-to-date config.guess and config.sub
 if [ ! -f config.guess ]; then wget --continue https://raw.githubusercontent.com/arthenica/gnu-config/refs/heads/master/config.guess; fi
