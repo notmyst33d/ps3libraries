@@ -2,7 +2,7 @@
 # libpng-1.4.4.sh by Naomi Peori (naomi@peori.ca)
 
 ## Download the source code.
-wget --continue https://ixpeering.dl.sourceforge.net/project/libpng/libpng14/older-releases/1.4.4/libpng-1.4.4.tar.gz?viasf=1
+wget --continue https://ixpeering.dl.sourceforge.net/project/libpng/libpng14/older-releases/1.4.4/libpng-1.4.4.tar.gz?viasf=1 -O libpng-1.4.4.tar.gz
 
 ## Download an up-to-date config.guess and config.sub
 if [ ! -f config.guess ]; then wget --continue https://raw.githubusercontent.com/arthenica/gnu-config/refs/heads/master/config.guess; fi
